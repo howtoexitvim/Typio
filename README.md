@@ -1,12 +1,31 @@
+<div align="center">
+
 # Typio
 
-Typio is an English IEM for non-native speakers on macOS. It is built for people who write in English every day but still lose flow on spelling, word choice, or switching between input methods.
+[English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-Typio is especially useful for Korean, Japanese, and Chinese users who want a clean English-first typing experience instead of full Chinese IME behavior.
+![Platform](https://img.shields.io/badge/platform-macOS-111827?logo=apple&logoColor=white)
+![Input Method](https://img.shields.io/badge/type-English%20IEM-2563eb)
+![Local First](https://img.shields.io/badge/architecture-local--first-059669)
+
+</div>
+
+Typio is an English IEM for non-native speakers on macOS.
+
+It is designed for people who write in English daily but still lose flow on spelling, word choice, or constant input method switching.
+
+Typio is especially useful for Korean, Japanese, and Chinese users who want an English-first typing experience instead of full Chinese IME behavior.
 
 Everything is local-first: no cloud dependency, no sign-in flow, and no extra distractions. You type, Typio suggests practical candidates, and you keep writing.
 
 Typio means the end of typo.
+
+## Why Typio
+
+- ✍️ **Stay in flow**: keep typing while candidates update in place.
+- 🧠 **Practical suggestions**: focused on high-frequency English usage.
+- 🧩 **Flexible panel styles**: horizontal, grid (multi-row), and vertical layouts.
+- 🔒 **Private by default**: all input processing stays local.
 
 ## Screenshots
 
@@ -43,4 +62,4 @@ If you need installer signing, set `INSTALLER_SIGN_IDENTITY` before packaging.
 
 ## About
 
-Project home: https://github.com/howtousellm/typio
+Project home: https://github.com/howtoexitvim/Typio

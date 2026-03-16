@@ -1,0 +1,65 @@
+<div align="center">
+
+# Typio
+
+[English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
+
+![Platform](https://img.shields.io/badge/platform-macOS-111827?logo=apple&logoColor=white)
+![Input Method](https://img.shields.io/badge/type-English%20IEM-2563eb)
+![Architecture](https://img.shields.io/badge/architecture-local--first-059669)
+
+</div>
+
+Typio は、英語を母語としないユーザー向けの macOS 用 English IEM です。
+
+毎日英語を書く中で、スペル、語彙選択、入力方式の切り替えによって思考の流れが途切れてしまう人のために設計されています。
+
+Typio は、完全な中国語 IME 的な挙動ではなく、英語優先でクリーンな入力体験を求める韓国語・日本語・中国語ユーザーに特に適しています。
+
+Typio は local-first を徹底しています。クラウド依存なし、サインイン不要、余計なノイズなし。入力を続けるだけで、Typio が実用的な候補を提示します。
+
+Typio は「typo の終わり」を意味します。
+
+## Typio を選ぶ理由
+
+- ✍️ **入力フローを維持**：候補がその場で更新され、作業を止めません。
+- 🧠 **実用的な候補提示**：高頻度の英語表現に最適化。
+- 🧩 **柔軟なパネル表示**：横並び・グリッド（複数行）・縦並びに対応。
+- 🔒 **プライバシー重視**：入力処理はすべてローカルで完結。
+
+## スクリーンショット
+
+<table>
+	<tr>
+		<td align="center"><strong>入力ソースメニュー</strong></td>
+		<td align="center"><strong>言語モード切り替え</strong></td>
+	</tr>
+	<tr>
+		<td align="center"><img src="resources/images/readme/typio-menu-entry.png" alt="Typio 入力ソースメニュー" height="240" /></td>
+		<td align="center"><img src="resources/images/readme/typio-language-toggle.png" alt="Typio 言語モード切り替え" height="240" /></td>
+	</tr>
+	<tr>
+		<td align="center"><strong>複数行候補パネル</strong></td>
+		<td align="center"><strong>設定：候補パネルスタイル</strong></td>
+	</tr>
+	<tr>
+		<td align="center"><img src="resources/images/readme/typio-candidate-grid.png" alt="Typio 複数行候補パネル" height="240" /></td>
+		<td align="center"><img src="resources/images/readme/typio-settings-panel-style.png" alt="Typio パネルスタイル設定" height="240" /></td>
+	</tr>
+</table>
+
+## インストール
+
+一般ユーザーは `typio-<version>.pkg` をダウンロードして実行し、システム設定の「キーボード → 入力ソース」で Typio を有効化してください。
+
+通常はログアウト不要です。すぐに表示されない場合は、一度入力ソースを削除して再追加してください。それでも表示されない場合は、ログアウト後に再ログインしてください。
+
+## ビルドとパッケージ
+
+`sh scripts/build.sh` でビルド、`sh scripts/build-and-install.sh` でローカル開発用インストール、`sh scripts/package-pkg.sh` で `dist/typio-<version>.pkg` を生成します。
+
+インストーラ署名が必要な場合は、パッケージ化前に `INSTALLER_SIGN_IDENTITY` を設定してください。
+
+## プロジェクト
+
+Project home: https://github.com/howtoexitvim/Typio

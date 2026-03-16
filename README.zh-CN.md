@@ -1,0 +1,65 @@
+<div align="center">
+
+# Typio
+
+[English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
+
+![Platform](https://img.shields.io/badge/platform-macOS-111827?logo=apple&logoColor=white)
+![输入法类型](https://img.shields.io/badge/type-English%20IEM-2563eb)
+![架构](https://img.shields.io/badge/architecture-local--first-059669)
+
+</div>
+
+Typio 是一个面向非母语用户的 macOS 英文输入法（English IEM）。
+
+它服务于每天都要写英文、但经常在拼写、词语选择或输入法切换上打断思路的用户。
+
+Typio 特别适合韩语、日语、中文用户：你可以获得更干净的英文优先输入体验，而不是完整中文 IME 的交互逻辑。
+
+Typio 坚持 local-first：不依赖云端、无需登录、没有额外干扰。你持续输入，Typio 提供实用候选，你保持写作节奏。
+
+Typio，意为 typo 的终点。
+
+## 为什么选择 Typio
+
+- ✍️ **保持输入流**：候选实时更新，不打断写作。
+- 🧠 **实用候选**：面向高频英文表达场景。
+- 🧩 **面板样式可选**：支持横向、网格（多行）、纵向布局。
+- 🔒 **默认隐私友好**：输入处理全部在本地完成。
+
+## 截图
+
+<table>
+	<tr>
+		<td align="center"><strong>输入源菜单</strong></td>
+		<td align="center"><strong>语言模式切换</strong></td>
+	</tr>
+	<tr>
+		<td align="center"><img src="resources/images/readme/typio-menu-entry.png" alt="Typio 输入源菜单" height="240" /></td>
+		<td align="center"><img src="resources/images/readme/typio-language-toggle.png" alt="Typio 语言切换" height="240" /></td>
+	</tr>
+	<tr>
+		<td align="center"><strong>多行候选面板</strong></td>
+		<td align="center"><strong>设置：候选面板样式</strong></td>
+	</tr>
+	<tr>
+		<td align="center"><img src="resources/images/readme/typio-candidate-grid.png" alt="Typio 多行候选" height="240" /></td>
+		<td align="center"><img src="resources/images/readme/typio-settings-panel-style.png" alt="Typio 面板样式设置" height="240" /></td>
+	</tr>
+</table>
+
+## 安装
+
+对于普通用户，请下载并运行 `typio-<version>.pkg`，然后在“系统设置 → 键盘 → 输入法”中启用 Typio。
+
+大多数情况下无需注销。如果 Typio 没有立即出现，可先移除并重新添加一次输入源；仍未显示时，再执行一次注销并重新登录。
+
+## 构建与打包
+
+使用 `sh scripts/build.sh` 构建应用，`sh scripts/build-and-install.sh` 用于本地开发安装，`sh scripts/package-pkg.sh` 生成安装包 `dist/typio-<version>.pkg`。
+
+如果需要安装包签名，请在打包前设置 `INSTALLER_SIGN_IDENTITY`。
+
+## 项目
+
+项目主页：https://github.com/howtoexitvim/Typio
