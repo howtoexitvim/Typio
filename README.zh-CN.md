@@ -31,7 +31,7 @@ Typio，意为 typo 的终点。
 ## 截图
 
 <div align="center">
-  <video src="resources/images/readme/demo.mp4" controls="controls" muted="muted" autoplay="autoplay" width="66.66666%"></video>
+  <img src="resources/images/readme/demo.gif" width="66.66666%" alt="Demo">
 </div>
 
 <br/>
