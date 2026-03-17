@@ -5,12 +5,13 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
 ![Platform](https://img.shields.io/badge/platform-macOS-111827?logo=apple&logoColor=white)
-![Input Method](https://img.shields.io/badge/type-English%20IEM-2563eb)
+![Input Method](https://img.shields.io/badge/type-English%20IME-2563eb)
 ![Local First](https://img.shields.io/badge/architecture-local--first-059669)
+[![Sponsor](https://img.shields.io/badge/sponsor-Support%20Typio-ea580c?logo=githubsponsors&logoColor=white)](https://saguaro.show/archive/projects/typio)
 
 </div>
 
-Typio is an English IEM for non-native speakers on macOS.
+Typio is an English IME for non-native speakers on macOS.
 
 It is designed for people who write in English daily but still lose flow on spelling, word choice, or constant input method switching.
 
@@ -28,6 +29,12 @@ Typio means the end of typo.
 - 🔒 **Private by default**: all input processing stays local.
 
 ## Screenshots
+
+<div align="center">
+  <video src="resources/images/readme/demo.mov" controls="controls" muted="muted" autoplay="autoplay" width="66.666%"></video>
+</div>
+
+<br/>
 
 <table>
 	<tr>
@@ -52,6 +59,12 @@ Typio means the end of typo.
 
 For end users, download and run `typio-<version>.pkg`, then enable Typio in System Settings → Keyboard → Input Sources.
 
+<div align="center">
+  <img src="resources/images/readme/install-guide-1.png" alt="Allow applications from App Store & Known Developers" height="300" />
+      
+  <img src="resources/images/readme/install-guide-2.png" alt="Open typio-1.0.pkg anyway" height="300" />
+</div>
+
 In most cases, logout is not required. If Typio does not appear immediately, remove and add the source once. If it still does not show, log out and log back in.
 
 ## Build and Package
@@ -59,6 +72,10 @@ In most cases, logout is not required. If Typio does not appear immediately, rem
 Use `sh scripts/build.sh` to build the app, `sh scripts/build-and-install.sh` for local developer install, and `sh scripts/package-pkg.sh` to generate the installer package at `dist/typio-<version>.pkg`.
 
 If you need installer signing, set `INSTALLER_SIGN_IDENTITY` before packaging.
+
+## Support Typio
+
+Typio is built for the community. If you find it helpful, please consider supporting its development on my [personal blog](https://saguaro.show/archive/projects/typio).
 
 ## About
 
