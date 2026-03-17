@@ -31,7 +31,7 @@ Typio means the end of typo.
 ## Screenshots
 
 <div align="center">
-  <video src="resources/images/readme/demo.mov" controls="controls" muted="muted" autoplay="autoplay" width="66.666%"></video>
+  <video src="resources/images/readme/demo.mp4" controls="controls" muted="muted" autoplay="autoplay" width="66.666%"></video>
 </div>
 
 <br/>

@@ -31,7 +31,7 @@ Typio는 typo의 끝을 의미합니다.
 ## 스크린샷
 
 <div align="center">
-  <video src="resources/images/readme/demo.mov" controls="controls" muted="muted" autoplay="autoplay" width="66.66666%"></video>
+  <video src="resources/images/readme/demo.mp4" controls="controls" muted="muted" autoplay="autoplay" width="66.66666%"></video>
 </div>
 
 <br/>
@@ -61,7 +61,7 @@ Typio는 typo의 끝을 의미합니다.
 
 <div align="center">
   <img src="resources/images/readme/install-guide-1.png" alt="Allow applications from App Store & Known Developers" height="300" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
+      
   <img src="resources/images/readme/install-guide-2.png" alt="Open typio-1.0.pkg anyway" height="300" />
 </div>
 
